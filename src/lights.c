@@ -3,7 +3,7 @@
 
 int lights_on(char* lightsToOn){
 	char id = '0';
-	id = lightsToOn[0];
+	id = lightsToOn[4];
 	switch (id)
     {
     	case '1': 
@@ -27,7 +27,7 @@ int lights_on(char* lightsToOn){
 
 int lights_off(char* lightsToOff){
 	char id = '0';
-	id = lightsToOff[0];
+	id = lightsToOff[4];
 	switch (id)
     {
     	case '1': 

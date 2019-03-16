@@ -20,6 +20,8 @@ int checkingDoors(){
  
     fscanf(fptr,"%[^\n]", c);
 
+
+    printf("%s\n","SERVER_RESPONSE: Chequendo estados de las puertas");
     printf("%s\n", c);
     fclose(fptr);
 
