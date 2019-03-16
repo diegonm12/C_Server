@@ -47,5 +47,9 @@ QUERY PARAMS: {
 	}
 ```
 
+* Resquest tomar foto.
+
+* Resquest encender luces simultaneamente
+
 
 
