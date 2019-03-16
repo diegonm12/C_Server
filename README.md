@@ -9,7 +9,7 @@ Web server en C que estará corriendo en un sistema operativo a la medida (Yocto
 
 
 ## Funcionamiento
-* El servidor obtiene los estados de las puertas mediante la lectura de los archivos "door1", "door2", "door3" y "door4", los cuales 
+* El servidor obtiene los estados de las puertas mediante la lectura del los archivos "doorStatus", que obtiene losvalores de los archvivos  "door1", "door2", "door3" y "door4" (representan los archivos de los pines), los cuales 
 contienen un 1 o un 0 para indicar si puerta esta abierta o cerrada respectivamente.(estos archivos deben cambiarse a los archivos 
 que tienen los valores de los pines a los que están conectados las puertas).
 
