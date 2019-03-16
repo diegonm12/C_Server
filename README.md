@@ -36,7 +36,6 @@ QUERY PARAMS: {
 		| Luz  |   3   |
 	}
 ```
-```
 
 * Resquest que por ejemplo apagaría la luz #3.
 ```
