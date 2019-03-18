@@ -6,7 +6,7 @@ This is a very simple HTTP server for Unix, using fork(). It's very easy to use
 
 1. include header `httpd.h`
 2. write your route method, handling requests.
-3. call `serve_forever("12913")` to start serving on port 12913
+3. call `serve_forever("8080")` to start serving on port 8080
 
 See `main.c`, an interesting example.
 

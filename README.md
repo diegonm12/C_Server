@@ -5,7 +5,7 @@ Web server en C que estará corriendo en un sistema operativo a la medida (Yocto
 * Descargar archivos
 * Ejecuctar en comando make desde la consola
 * Una vez finalizada la compilación,ejecutar el programa mediante el comando "./server"
-* Una vez ejecuta se mostrar el mensaje "Server started http://127.0.0.1:12913"
+* Una vez ejecuta se mostrar el mensaje "Server started http://127.0.0.1:8080"
 
 
 ## Funcionamiento
@@ -51,5 +51,16 @@ QUERY PARAMS: {
 
 * Resquest encender luces simultaneamente
 
-
+* El pinaje actual de las puertas y lamparas actual es:
+	puertas:
+		- puerta_1 = pin 1
+		- puerta_2 = pin 2
+		- puerta_3 = pin 3
+		- puerta_4 = pin 4
+	luces:
+		- luz_1 = pin 5
+		- luz_2 = pin 6
+		- luz_3 = pin 7
+		- luz_4 = pin 7
+		- luz_5 = pin 8
 

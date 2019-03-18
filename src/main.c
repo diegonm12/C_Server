@@ -1,10 +1,11 @@
-#include "./include/httpd.h"
-#include "./include/lights.h"
-#include "./include/doors.h"
+#include <httpd.h>
+#include <lights.h>
+#include <doors.h>
+#include <camara.h>
 
 int main(int c, char** v)
 {
-    serve_forever("12913");
+    serve_forever("8080");
     return 0;
 }
 
@@ -46,6 +47,7 @@ void route()
     {
         printf("HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\n\r\n");
         printf("Hello! You are using %s", request_header("User-Agent"));
+        takePhoto();
     }
     
 
