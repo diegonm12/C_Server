@@ -10,6 +10,12 @@
 
 //Permite establecer el modo (entrada/salida) de un pin espec´ıfico (n´umero de pin/gpio).
 void pinMode(char* pin,char* MODE){
+	char command_0[50]="echo ";
+	strcat(command_0,pin);	
+	strcat(command_0," > /sys/class/gpio/export");
+
+	system(command_0);
+
 	char command[50]="echo ";
 	strcat(command,MODE);
 	strcat(command," > /sys/class/gpio/gpio");

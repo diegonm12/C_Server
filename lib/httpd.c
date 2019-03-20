@@ -1,4 +1,4 @@
-#include "../include/httpd.h"
+#include <httpd.h>
 
 #include <stdio.h>
 #include <string.h>
