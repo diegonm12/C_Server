@@ -33,6 +33,19 @@ int lights_on(char* lightsToOn){
     		pinMode(luz_5,'OUTPUT');
 			digitalWrite(luz_5,'1');
 			break;
+		case '6': 
+    		printf("%s\n","SERVER_RESPONSE: Se encienden todas las luces");
+    		pinMode(luz_1,'OUTPUT');
+			digitalWrite(luz_1,'1');
+			pinMode(luz_2,'OUTPUT');
+			digitalWrite(luz_2,'1');
+			pinMode(luz_3,'OUTPUT');
+			digitalWrite(luz_3,'1');
+			pinMode(luz_4,'OUTPUT');
+			digitalWrite(luz_4,'1');
+			pinMode(luz_5,'OUTPUT');
+			digitalWrite(luz_5,'1');
+			break;
     }
 	
 }
@@ -65,6 +78,19 @@ int lights_off(char* lightsToOff){
     	case '5': 
     		printf("%s\n","SERVER_RESPONSE: Se apaga luz 5");
     		pinMode(luz_5,'OUTPUT');
+			digitalWrite(luz_5,'0');
+			break;
+		case '6': 
+    		printf("%s\n","SERVER_RESPONSE: Se apagan todas las luces");
+    		pinMode(luz_1,'OUTPUT');
+			digitalWrite(luz_1,'0');
+			pinMode(luz_2,'OUTPUT');
+			digitalWrite(luz_2,'0');
+			pinMode(luz_3,'OUTPUT');
+			digitalWrite(luz_3,'0');
+			pinMode(luz_4,'OUTPUT');
+			digitalWrite(luz_4,'0');
+			pinMode(luz_5,'OUTPUT');
 			digitalWrite(luz_5,'0');
 			break;
     }
