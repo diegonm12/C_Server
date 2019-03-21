@@ -64,3 +64,5 @@ QUERY PARAMS: {
 		- luz_4 = pin 7
 		- luz_5 = pin 8
 
+
+//$ ../configure --prefix=/home/ger534/Desktop/Embebidos/proyecto/server/C_Server/build/usr

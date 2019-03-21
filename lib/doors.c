@@ -7,10 +7,10 @@
 
 int checkingDoors(){
 
-    pinMode(puerta_1,'INPUT');
-    pinMode(puerta_2,'INPUT');
-    pinMode(puerta_3,'INPUT');
-    pinMode(puerta_4,'INPUT');
+    pinMode(puerta_1,"INPUT");
+    pinMode(puerta_2,"INPUT");
+    pinMode(puerta_3,"INPUT");
+    pinMode(puerta_4,"INPUT");
 
     system("> doorStatus");
     //system("cat door1 | tr -d '\n' >> doorStatus");
